@@ -1,0 +1,40 @@
+2020-09-13 20:47:28.150 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:63161/  0
+2020-09-13 20:47:28.150 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/  
+2020-09-13 20:47:28.468 +02:00 [Information] Request finished in 516.6098ms 200 
+2020-09-13 20:47:28.992 +02:00 [Information] Request finished in 1007.875ms 404 
+2020-09-13 20:50:39.115 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/  
+2020-09-13 20:50:39.115 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:63161/  0
+2020-09-13 20:50:39.181 +02:00 [Information] Request finished in 198.0339ms 200 
+2020-09-13 20:50:39.291 +02:00 [Information] Request finished in 306.5235ms 404 
+2020-09-13 20:51:43.706 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/get-funds  
+2020-09-13 20:51:44.989 +02:00 [Information] Executing action method "Api.Controllers.FundsController.GetFunds (Api)" with arguments (null) - ModelState is Valid
+2020-09-13 20:51:46.131 +02:00 [Information] Request Get Funds
+2020-09-13 20:51:46.154 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-09-13 20:51:46.388 +02:00 [Information] Executed action "Api.Controllers.FundsController.GetFunds (Api)" in 1455.2868ms
+2020-09-13 20:51:46.394 +02:00 [Information] Request finished in 2687.8001ms 200 application/json; charset=utf-8
+2020-09-13 21:57:36.540 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/  
+2020-09-13 21:57:36.540 +02:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:63161/  0
+2020-09-13 21:57:36.606 +02:00 [Information] Request finished in 139.4513ms 200 
+2020-09-13 21:57:36.708 +02:00 [Information] Request finished in 241.2383ms 404 
+2020-09-13 21:57:42.636 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/get-fund/EA  
+2020-09-13 21:57:49.008 +02:00 [Information] Executing action method "Api.Controllers.FundsController.GetFund (Api)" with arguments (["EA"]) - ModelState is Valid
+2020-09-13 21:57:49.083 +02:00 [Information] Request Get Fund - with ID = EA
+2020-09-13 21:57:49.094 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-09-13 21:57:49.127 +02:00 [Information] Executed action "Api.Controllers.FundsController.GetFund (Api)" in 5190.8041ms
+2020-09-13 21:57:49.133 +02:00 [Information] Request finished in 6497.0235ms 200 application/json; charset=utf-8
+2020-09-13 21:58:15.425 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/get-funds  
+2020-09-13 21:58:15.431 +02:00 [Information] Executing action method "Api.Controllers.FundsController.GetFunds (Api)" with arguments (null) - ModelState is Valid
+2020-09-13 21:58:15.437 +02:00 [Information] Request Get Funds
+2020-09-13 21:58:15.441 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-09-13 21:58:15.447 +02:00 [Information] Executed action "Api.Controllers.FundsController.GetFunds (Api)" in 15.3362ms
+2020-09-13 21:58:15.451 +02:00 [Information] Request finished in 28.2703ms 200 application/json; charset=utf-8
+2020-09-13 21:58:54.628 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/get-managerfunds/Furnigeer  
+2020-09-13 21:58:54.641 +02:00 [Information] Executing action method "Api.Controllers.FundsController.GetManagerFunds (Api)" with arguments (["Furnigeer"]) - ModelState is Valid
+2020-09-13 21:58:54.643 +02:00 [Information] Request Get Fund - with Fund Manager = Furnigeer
+2020-09-13 21:58:54.647 +02:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2020-09-13 21:58:54.652 +02:00 [Information] Executed action "Api.Controllers.FundsController.GetManagerFunds (Api)" in 11.2834ms
+2020-09-13 21:58:54.657 +02:00 [Information] Request finished in 75.4602ms 200 application/json; charset=utf-8
+2020-09-13 22:02:47.929 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/  
+2020-09-13 22:02:48.012 +02:00 [Information] Request finished in 98.399ms 404 
+2020-09-13 22:02:48.097 +02:00 [Information] Request starting HTTP/1.1 GET http://localhost:63161/  
+2020-09-13 22:02:48.098 +02:00 [Information] Request finished in 0.6853ms 404 
